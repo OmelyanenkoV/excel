@@ -1,0 +1,31 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "pure excel app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worldofakk/excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Omelianenko Vlad <shield.deffence@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worldofakk/excel/issues"
+  },
+  "homepage": "https://github.com/worldofakk/excel#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  }
+}
