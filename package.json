@@ -25,7 +25,13 @@
   "homepage": "https://github.com/worldofakk/excel#readme",
   "private": true,
   "devDependencies": {
+    "copy-webpack-plugin": "^6.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.1.2",
     "webpack": "^5.1.3",
     "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0"
   }
 }
