@@ -1,3 +1,2 @@
-import './scss/index.scss'
-import './module'
-console.log('work 123123azz')
+import './scss/index.scss';
+console.log('work ');
