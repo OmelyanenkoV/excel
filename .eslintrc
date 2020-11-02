@@ -9,6 +9,10 @@
     "rules": {
         "object-curly-spacing": "off",
         "linebreak-style": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "operator-linebreak": "off",
+        "no-debugger": "off",
+        "indent": "off",
+        "no-unused-vars": "off"
     }
 }
