@@ -4,9 +4,13 @@ const CODES = {
 };
 
 function createRow(index, content) {
+  const resizer = index ? '<div class="row-info-resize"></div>' : '';
   return `
     <div class="row">
-        <div class="row-info">${index ? index : ''}</div>
+        <div class="row-info">
+          ${index ? index : ''}
+          ${resizer}
+        </div>
         <div class="row-data">${content}</div>
     </div> 
   `;
@@ -16,6 +20,7 @@ function createCol(col) {
   return `
     <div class="column">
         ${col}
+        <div class="column-resize"></div>
     </div>
     `;
 }
