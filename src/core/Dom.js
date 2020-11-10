@@ -51,9 +51,22 @@ class Dom {
     return this.$el.getBoundingClientRect();
   }
 
+  find(selector) {
+    return $(this.$el.querySelector(selector));
+  }
+
   findAll(selector) {
     return this.$el.querySelectorAll(selector);
   }
+
+  addClass(className) {
+    this.$el.classList.add(className);
+  }
+
+  removeClass(className) {
+    this.$el.classList.remove(className);
+  }
+
   updateCss(styles = {}) {
     Object.keys(styles).forEach((key) => {
       this.$el.style[key] = styles[key];
