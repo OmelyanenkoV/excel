@@ -70,6 +70,16 @@ class Dom {
     return this.data.id;
   }
 
+  blur() {
+    this.$el.blur();
+    return this;
+  }
+
+  focus() {
+    this.$el.focus();
+    return this;
+  }
+
   addClass(className) {
     this.$el.classList.add(className);
   }
